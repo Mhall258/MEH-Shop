@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles's Ceramics Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Miles's Ceramic Shop</h1>
+        <a href="cart.html" class="cart-link">Cart</a>
+    </header>
+    
+    <main>
+        <section id="products">
+            <p id="addedToCart" class="hidden">Item Added to cart!</p>
+            <h2>Usable Pottery</h2>
+            <div class="product-list">
+                <!-- Each product will have a card structure -->
+                <div class="product-card">
+                    <img src=".\images\planters.JPG" alt="Ceramic Piece 1">
+                    <h3>Planters</h3>
+                    <p>$35.00 each</p>
+                    <button onclick="addToCart('planters', 35.00)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src=".\images\tea set.JPG" alt="Ceramic Piece 2">
+                    <h3>Tea-set</h3>
+                    <p>$75.00</p>
+                    <button onclick="addToCart('Tea-set', 75.00)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src=".\images\mugs.JPG" alt="Ceramic Piece 3">
+                    <h3>mugs</h3>
+                    <p>$20.00 each</p>
+                    <button onclick="addToCart('mugs', 20.00)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src=".\images\jar.JPG" alt="Ceramic Piece 4">
+                    <h3>Jar</h3>
+                    <p>$15.00</p>
+                    <button onclick="addToCart('Jar', 15.00)">Add to Cart</button>
+                </div>
+                <!-- Repeat product-card for more products -->
+        </section>
+
+        <!-- <section id="skulptures">
+            <h3>Sculptures and jewelry</h3>
+                <div class="product-list">
+                    
+                    <div class="product-card">
+                        <img src=".\images\rings.JPG" alt="Ceramic Piece 1">
+                        <h3>Tea-set</h3>
+                        <p>$75.00</p>
+                        <button onclick="addToCart('Handmade Vase', 45.00)">Add to Cart</button>
+                        <p id="addedToCart" class="hidden">Item Added to cart!</p>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\simpsons.JPG" alt="Ceramic Piece 1">
+                        <h3>Tea-set</h3>
+                        <p>$75.00</p>
+                        <button onclick="addToCart('Handmade Vase', 45.00)">Add to Cart</button>
+                        <p id="addedToCart" class="hidden">Item Added to cart!</p>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\Aislin.JPG" alt="Ceramic Piece 1">
+                        <h3>Tea-set</h3>
+                        <p>$75.00</p>
+                        <button onclick="addToCart('Handmade Vase', 45.00)">Add to Cart</button>
+                        <p id="addedToCart" class="hidden">Item Added to cart!</p>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\eyering.JPG" alt="Ceramic Piece 1">
+                        <h3>Tea-set</h3>
+                        <p>$75.00</p>
+                        <button onclick="addToCart('Handmade Vase', 45.00)">Add to Cart</button>
+                        <p id="addedToCart" class="hidden">Item Added to cart!</p>
+                    </div>
+        </section> -->
+        
+        <!-- <section id="workInProgress">
+            <h3>Behind the scenes</h3>
+                <div class="product-list">
+                    
+                    <div class="product-card">
+                        <img src=".\images\WorkinProgress.JPG" alt="Ceramic Piece 1">
+                        <p>__________</p>
+                        <h3>making a face donut</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\WorkinProgress2.JPG" alt="Ceramic Piece 1">
+                        <p>__________</p>
+                        <h3>Hand Carving details</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\Working in studio.JPG" alt="Ceramic Piece 1">
+                        <p>__________</p>
+                        <h3>Stack of donuts ready for sculpting</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src=".\images\plaindoughnuts.JPG" alt="Ceramic Piece 1">
+                        <p>__________</p>
+                        <h3>before firing</h3>
+                    </div>
+        </section> -->
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

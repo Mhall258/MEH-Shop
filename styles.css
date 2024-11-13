@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+.cart-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #d47414;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(185, 185, 24);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+#addedToCart {
+    color: #4CAF50; /* Green color for success */
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.cart-link {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cart-link:hover {
+    text-decoration: underline;
+}
+
+/* Cart items styling */
+#cart-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items ul li input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#cart-items ul li button {
+    background-color: #ff4d4d;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cart-items ul li button:hover {
+    background-color: #ff3333;
+}
+
+/* Total price styling */
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: right;
+}
